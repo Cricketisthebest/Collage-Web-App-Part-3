@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1>Collage Web App</h1>
+        <hr>
+        <h4>Please allow the microphone, image, and web cam when the pop up appears</h4>
+        <h3>Press the "Create My Collage" button, smile, and enjoy!</h3>
+        <button onclick="save()" class="btn btn-info">Create My Collage</button>
+        <h4>Press this button to start creating your collage</h4>
+        <label>Your Webcam:</label>
+        <div id="camera">
+            <label>All of your selfies will be displayed here:</label>
+            <div id="resultShow">
+                <div id="result1">
+                    <img src="pic1.jpg" style="width: 30%;">
+                </div>
+                <div id="result2">
+                    <img src="pic2.jpg" style="width: 30%;">
+                </div>
+                <div id="result3">
+                    <img src="pic3.jpg" style="width: 30%;">
+                </div>
+            </div>
+        </div>
+    </center>
+    <div id="footer">Sir Erith Christian</div>
+</body>
+
+</html>
